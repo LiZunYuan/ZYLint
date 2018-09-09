@@ -1,0 +1,6 @@
+framework module ZYLint {
+  umbrella header "ZYLint-umbrella.h"
+
+  export *
+  module * { export * }
+}

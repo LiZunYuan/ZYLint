@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FF981E33B10B9A399D2E14AA59D5FE7 /* ZYLint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1E93E474E32F49652CD4510080AE6B2 /* ZYLint-dummy.m */; };
+		229EFB5A851462082248AAFBED8DA011 /* ZYLint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E6E44DAEE1374EF8A89FC6BB0042399 /* ZYLint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61DF0B67695651D7B2132C3B867762F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		67D562472E4AC99535BD5403500E18E6 /* Pods-ZYLint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7817DFCECCC52BAA62063EC52A2CA914 /* Pods-ZYLint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D437E1108FC44E95BC38700891F4FCC /* ZYLint.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF8C1EE21303934AD9D0FC069C6FEF84 /* ZYLint.bundle */; };
+		83B3E960BB53B0ACE64DFB184A92BDEB /* LintScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 119BE82E922E572AAD37C27F96C45F8F /* LintScript.sh */; };
+		88CC5AA128243CE6F6EF99EDEEABB442 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F94EE03361E40752C9386B56F579B06 /* ReplaceMe.m */; };
+		9FA98EAE3D409A4313647239947AFFA6 /* Pods-ZYLint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2043BC2DBCEBF935C706F90301E04169 /* Pods-ZYLint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A715C249DD57AFBEB4C08C68B860965C /* ZYLintReadme.h in Headers */ = {isa = PBXBuildFile; fileRef = C846D13435965B2A55577A1CFFEC5C9A /* ZYLintReadme.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1BA7C96106B29A3253EE1ABD300CBC0 /* Pods-ZYLint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9B19302CDB8331B4287FD5568A1984 /* Pods-ZYLint_Example-dummy.m */; };
+		BA3BF8ED1241DF06A605FC1528B07263 /* ZYLintReadme.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E0F35CA1A5F9542DB2A0F617B32F35 /* ZYLintReadme.m */; };
+		CE1B012E50A49DE65BEA09E54FCCB3FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EE9F9950B61274FCCFCE3BB823ACDEA0 /* Pods-ZYLint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 298DE24155580549EFDF08575FB478C7 /* Pods-ZYLint_Tests-dummy.m */; };
+		F2EEFC82A7EBACCCD5DAC7367CFE1E5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		219DC4DE97C830D9B90BE9332D68C7F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF42F5D4189DA4AA92DBA8F11CBC4082;
+			remoteInfo = "ZYLint-ZYLint";
+		};
+		5C8F15323E5C635566CAD6AC24487C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62FC9A5B441E4EC1FC014316755AD1C;
+			remoteInfo = "Pods-ZYLint_Example";
+		};
+		9D8C5D25C818D24B3B4F9D2DD40CA1F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFECAFA353A945FBB84770B3CC45695D;
+			remoteInfo = ZYLint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB9F113B18CD295154D558AD619D34B /* Pods-ZYLint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYLint_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0E6E44DAEE1374EF8A89FC6BB0042399 /* ZYLint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYLint-umbrella.h"; sourceTree = "<group>"; };
+		0EF341E5E11AD57F4B17361B94B4A0D3 /* Pods-ZYLint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYLint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		119BE82E922E572AAD37C27F96C45F8F /* LintScript.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; name = LintScript.sh; path = ZYLint/Assets/LintScript.sh; sourceTree = "<group>"; };
+		1311ACBDA5F6832C963375CCCA47C88D /* Pods-ZYLint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYLint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		17DE530B6E64D01D8773E356E23C72F1 /* Pods-ZYLint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYLint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2043BC2DBCEBF935C706F90301E04169 /* Pods-ZYLint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYLint_Tests-umbrella.h"; sourceTree = "<group>"; };
+		298DE24155580549EFDF08575FB478C7 /* Pods-ZYLint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYLint_Tests-dummy.m"; sourceTree = "<group>"; };
+		315AD07572BC7F2B683CD140047C3762 /* Pods-ZYLint_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYLint_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		404C608CF9C88EFCD468317DF363DA12 /* ZYLint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZYLint-prefix.pch"; sourceTree = "<group>"; };
+		4ADF6D5FEE1B0BB3F10188E52C6FF300 /* Pods-ZYLint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYLint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5F94EE03361E40752C9386B56F579B06 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZYLint/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		608ED0ABB3EEF0BBB6FFA271C973CEDD /* Pods-ZYLint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLint_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		666065602A8A8B4B346D1B20C4223B0A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB9D3CF79BC49780633E59ACF52A1F0 /* Pods-ZYLint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FCE7F982260D98F9262FB464CE96C95 /* Pods-ZYLint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLint_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7817DFCECCC52BAA62063EC52A2CA914 /* Pods-ZYLint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZYLint_Example-umbrella.h"; sourceTree = "<group>"; };
+		783A3AE5EA79790CF8A09F9ECA15E821 /* ResourceBundle-ZYLint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZYLint-Info.plist"; sourceTree = "<group>"; };
+		7D5E33B745EC8F5B07FC3DE90242F061 /* Pods_ZYLint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYLint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81674F1977647DF35033E679FBD348B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		85A0079B3C39100895165AB8B25EDAD3 /* Pods-ZYLint_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYLint_Example-resources.sh"; sourceTree = "<group>"; };
+		8877EEC3EC77E17110A02A76AF4038CE /* ZYLint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZYLint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CB36DE1C6E75B6F75A0F4B8F60A11F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		990FC38B18AE8B491DCA83BAC9F503C2 /* Pods-ZYLint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYLint_Example.modulemap"; sourceTree = "<group>"; };
+		9B9F88171E22315333A78D96830F3D61 /* ZYLint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ZYLint.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BFBEFFEB953CA14197CA4B4CF99C003 /* Pods-ZYLint_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYLint_Tests-resources.sh"; sourceTree = "<group>"; };
+		AB8D25DC24E6597B19D3C341A30D902E /* Pods-ZYLint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZYLint_Tests.modulemap"; sourceTree = "<group>"; };
+		AC74280F3C004ACC5688C1D697E56834 /* ZYLint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZYLint.modulemap; sourceTree = "<group>"; };
+		AF8C1EE21303934AD9D0FC069C6FEF84 /* ZYLint.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYLint.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4FA4EA70BC3E3D08002EA0152E93624 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BE9B19302CDB8331B4287FD5568A1984 /* Pods-ZYLint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYLint_Example-dummy.m"; sourceTree = "<group>"; };
+		C055FDCA903A7BB9580292C24E49A9CB /* ZYLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZYLint.xcconfig; sourceTree = "<group>"; };
+		C3C800A155499216C045AD72C5D21437 /* Pods-ZYLint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYLint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C846D13435965B2A55577A1CFFEC5C9A /* ZYLintReadme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZYLintReadme.h; path = ZYLint/Classes/ZYLintReadme.h; sourceTree = "<group>"; };
+		D1E93E474E32F49652CD4510080AE6B2 /* ZYLint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZYLint-dummy.m"; sourceTree = "<group>"; };
+		D54483DD429B4DD9A7253B82B68B88BB /* Pods_ZYLint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYLint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E0F35CA1A5F9542DB2A0F617B32F35 /* ZYLintReadme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZYLintReadme.m; path = ZYLint/Classes/ZYLintReadme.m; sourceTree = "<group>"; };
+		EEFC585478EE45A824F589C3BFAADE2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818F2BFBBBDB20D7AEF31C65EF682085 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C61685177F78DB97E394F5D4BFBCE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EEFC82A7EBACCCD5DAC7367CFE1E5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6D9091EE012AD012CDB4A286FCF314 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61DF0B67695651D7B2132C3B867762F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAD8F7718004642A898C316E438B588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1B012E50A49DE65BEA09E54FCCB3FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BA59D42972214245248D5D0ECAD7E18 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81674F1977647DF35033E679FBD348B1 /* LICENSE */,
+				B4FA4EA70BC3E3D08002EA0152E93624 /* README.md */,
+				9B9F88171E22315333A78D96830F3D61 /* ZYLint.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		11CCE204D90A2848E397A8B6C48EC335 /* Pods-ZYLint_Example */ = {
+			isa = PBXGroup;
+			children = (
+				666065602A8A8B4B346D1B20C4223B0A /* Info.plist */,
+				990FC38B18AE8B491DCA83BAC9F503C2 /* Pods-ZYLint_Example.modulemap */,
+				4ADF6D5FEE1B0BB3F10188E52C6FF300 /* Pods-ZYLint_Example-acknowledgements.markdown */,
+				17DE530B6E64D01D8773E356E23C72F1 /* Pods-ZYLint_Example-acknowledgements.plist */,
+				BE9B19302CDB8331B4287FD5568A1984 /* Pods-ZYLint_Example-dummy.m */,
+				0DB9F113B18CD295154D558AD619D34B /* Pods-ZYLint_Example-frameworks.sh */,
+				85A0079B3C39100895165AB8B25EDAD3 /* Pods-ZYLint_Example-resources.sh */,
+				7817DFCECCC52BAA62063EC52A2CA914 /* Pods-ZYLint_Example-umbrella.h */,
+				C3C800A155499216C045AD72C5D21437 /* Pods-ZYLint_Example.debug.xcconfig */,
+				6FCE7F982260D98F9262FB464CE96C95 /* Pods-ZYLint_Example.release.xcconfig */,
+			);
+			name = "Pods-ZYLint_Example";
+			path = "Target Support Files/Pods-ZYLint_Example";
+			sourceTree = "<group>";
+		};
+		3375FB2B88D8E43DB3FB1F0060C0C38B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D54483DD429B4DD9A7253B82B68B88BB /* Pods_ZYLint_Example.framework */,
+				7D5E33B745EC8F5B07FC3DE90242F061 /* Pods_ZYLint_Tests.framework */,
+				AF8C1EE21303934AD9D0FC069C6FEF84 /* ZYLint.bundle */,
+				8877EEC3EC77E17110A02A76AF4038CE /* ZYLint.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38B3B452D26E9BBE95A6A687BFE6DE7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11CCE204D90A2848E397A8B6C48EC335 /* Pods-ZYLint_Example */,
+				DE67530156688C234E1B0989A0762DCC /* Pods-ZYLint_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		390CDC1A677EF0070BB5C550F49EA6CA /* ZYLint */ = {
+			isa = PBXGroup;
+			children = (
+				5F94EE03361E40752C9386B56F579B06 /* ReplaceMe.m */,
+				C846D13435965B2A55577A1CFFEC5C9A /* ZYLintReadme.h */,
+				D8E0F35CA1A5F9542DB2A0F617B32F35 /* ZYLintReadme.m */,
+				0BA59D42972214245248D5D0ECAD7E18 /* Pod */,
+				9E8A8A419ACF9D4AC8DB41B9C7BB94ED /* Resources */,
+				424DA7BCF0D2F73ECD565B5F41153D9D /* Support Files */,
+			);
+			name = ZYLint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		424DA7BCF0D2F73ECD565B5F41153D9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CB36DE1C6E75B6F75A0F4B8F60A11F /* Info.plist */,
+				783A3AE5EA79790CF8A09F9ECA15E821 /* ResourceBundle-ZYLint-Info.plist */,
+				AC74280F3C004ACC5688C1D697E56834 /* ZYLint.modulemap */,
+				C055FDCA903A7BB9580292C24E49A9CB /* ZYLint.xcconfig */,
+				D1E93E474E32F49652CD4510080AE6B2 /* ZYLint-dummy.m */,
+				404C608CF9C88EFCD468317DF363DA12 /* ZYLint-prefix.pch */,
+				0E6E44DAEE1374EF8A89FC6BB0042399 /* ZYLint-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZYLint";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A5F70BFBFE94FB7D8D935CC09264C3B1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3375FB2B88D8E43DB3FB1F0060C0C38B /* Products */,
+				38B3B452D26E9BBE95A6A687BFE6DE7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E8A8A419ACF9D4AC8DB41B9C7BB94ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				119BE82E922E572AAD37C27F96C45F8F /* LintScript.sh */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5F70BFBFE94FB7D8D935CC09264C3B1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				390CDC1A677EF0070BB5C550F49EA6CA /* ZYLint */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE67530156688C234E1B0989A0762DCC /* Pods-ZYLint_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFC585478EE45A824F589C3BFAADE2E /* Info.plist */,
+				AB8D25DC24E6597B19D3C341A30D902E /* Pods-ZYLint_Tests.modulemap */,
+				1311ACBDA5F6832C963375CCCA47C88D /* Pods-ZYLint_Tests-acknowledgements.markdown */,
+				0EF341E5E11AD57F4B17361B94B4A0D3 /* Pods-ZYLint_Tests-acknowledgements.plist */,
+				298DE24155580549EFDF08575FB478C7 /* Pods-ZYLint_Tests-dummy.m */,
+				315AD07572BC7F2B683CD140047C3762 /* Pods-ZYLint_Tests-frameworks.sh */,
+				9BFBEFFEB953CA14197CA4B4CF99C003 /* Pods-ZYLint_Tests-resources.sh */,
+				2043BC2DBCEBF935C706F90301E04169 /* Pods-ZYLint_Tests-umbrella.h */,
+				6BB9D3CF79BC49780633E59ACF52A1F0 /* Pods-ZYLint_Tests.debug.xcconfig */,
+				608ED0ABB3EEF0BBB6FFA271C973CEDD /* Pods-ZYLint_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZYLint_Tests";
+			path = "Target Support Files/Pods-ZYLint_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E1A2E186C5ABEBFAC7E353E2559ED68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229EFB5A851462082248AAFBED8DA011 /* ZYLint-umbrella.h in Headers */,
+				A715C249DD57AFBEB4C08C68B860965C /* ZYLintReadme.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8682779D5BAAB26F1AD9DC46DFD84F1C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA98EAE3D409A4313647239947AFFA6 /* Pods-ZYLint_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5DEB1FE2A1D9CB63B6ECE7689A4146B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D562472E4AC99535BD5403500E18E6 /* Pods-ZYLint_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04212793B1A668740F9B4E710F47A695 /* Pods-ZYLint_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8790AD0AD5CC3104136ADC12C067B8F6 /* Build configuration list for PBXNativeTarget "Pods-ZYLint_Tests" */;
+			buildPhases = (
+				01FB15642721AC4D412CD59A2913F01D /* Sources */,
+				9C61685177F78DB97E394F5D4BFBCE87 /* Frameworks */,
+				8682779D5BAAB26F1AD9DC46DFD84F1C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B9F1275D32827F1B4615C4A488B4AEF /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYLint_Tests";
+			productName = "Pods-ZYLint_Tests";
+			productReference = 7D5E33B745EC8F5B07FC3DE90242F061 /* Pods_ZYLint_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFECAFA353A945FBB84770B3CC45695D /* ZYLint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6763DB25FD5A09D2AAF652F27929FC7 /* Build configuration list for PBXNativeTarget "ZYLint" */;
+			buildPhases = (
+				78980B6425C2E21B329ABAE9A9703341 /* Sources */,
+				CD6D9091EE012AD012CDB4A286FCF314 /* Frameworks */,
+				E6CF1BC5E33BE1F4156A4E716FF87B5A /* Resources */,
+				3E1A2E186C5ABEBFAC7E353E2559ED68 /* Headers */,
+				1463EBDBD854401EB43E64849CAF4B32 /* [CP-User] Hello World */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9137D8EA4F1F16D59C6696216D93F13C /* PBXTargetDependency */,
+			);
+			name = ZYLint;
+			productName = ZYLint;
+			productReference = 8877EEC3EC77E17110A02A76AF4038CE /* ZYLint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F62FC9A5B441E4EC1FC014316755AD1C /* Pods-ZYLint_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A992B0EEEA7A39BF1E18382D86C88C76 /* Build configuration list for PBXNativeTarget "Pods-ZYLint_Example" */;
+			buildPhases = (
+				0F5CF49123A2B7F1C21A1CAA0CA62A55 /* Sources */,
+				FDAD8F7718004642A898C316E438B588 /* Frameworks */,
+				A5DEB1FE2A1D9CB63B6ECE7689A4146B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF4337EB705B8A3668356A84A1D4AF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZYLint_Example";
+			productName = "Pods-ZYLint_Example";
+			productReference = D54483DD429B4DD9A7253B82B68B88BB /* Pods_ZYLint_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF42F5D4189DA4AA92DBA8F11CBC4082 /* ZYLint-ZYLint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21697E6D14B970BEB61B5D72113F5073 /* Build configuration list for PBXNativeTarget "ZYLint-ZYLint" */;
+			buildPhases = (
+				B65E8BD708B1D14F68A34B4881CB99B6 /* Sources */,
+				818F2BFBBBDB20D7AEF31C65EF682085 /* Frameworks */,
+				00A0AE9C7BDE5CE4F9582B064921FB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZYLint-ZYLint";
+			productName = "ZYLint-ZYLint";
+			productReference = AF8C1EE21303934AD9D0FC069C6FEF84 /* ZYLint.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3375FB2B88D8E43DB3FB1F0060C0C38B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F62FC9A5B441E4EC1FC014316755AD1C /* Pods-ZYLint_Example */,
+				04212793B1A668740F9B4E710F47A695 /* Pods-ZYLint_Tests */,
+				DFECAFA353A945FBB84770B3CC45695D /* ZYLint */,
+				FF42F5D4189DA4AA92DBA8F11CBC4082 /* ZYLint-ZYLint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00A0AE9C7BDE5CE4F9582B064921FB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83B3E960BB53B0ACE64DFB184A92BDEB /* LintScript.sh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CF1BC5E33BE1F4156A4E716FF87B5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D437E1108FC44E95BC38700891F4FCC /* ZYLint.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1463EBDBD854401EB43E64849CAF4B32 /* [CP-User] Hello World */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] Hello World";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh $BUILT_PRODUCTS_DIR/ZYLint.bundle/LintScript.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FB15642721AC4D412CD59A2913F01D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F9950B61274FCCFCE3BB823ACDEA0 /* Pods-ZYLint_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F5CF49123A2B7F1C21A1CAA0CA62A55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1BA7C96106B29A3253EE1ABD300CBC0 /* Pods-ZYLint_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78980B6425C2E21B329ABAE9A9703341 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CC5AA128243CE6F6EF99EDEEABB442 /* ReplaceMe.m in Sources */,
+				0FF981E33B10B9A399D2E14AA59D5FE7 /* ZYLint-dummy.m in Sources */,
+				BA3BF8ED1241DF06A605FC1528B07263 /* ZYLintReadme.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65E8BD708B1D14F68A34B4881CB99B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B9F1275D32827F1B4615C4A488B4AEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZYLint_Example";
+			target = F62FC9A5B441E4EC1FC014316755AD1C /* Pods-ZYLint_Example */;
+			targetProxy = 5C8F15323E5C635566CAD6AC24487C83 /* PBXContainerItemProxy */;
+		};
+		9137D8EA4F1F16D59C6696216D93F13C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZYLint-ZYLint";
+			target = FF42F5D4189DA4AA92DBA8F11CBC4082 /* ZYLint-ZYLint */;
+			targetProxy = 219DC4DE97C830D9B90BE9332D68C7F1 /* PBXContainerItemProxy */;
+		};
+		CEF4337EB705B8A3668356A84A1D4AF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZYLint;
+			target = DFECAFA353A945FBB84770B3CC45695D /* ZYLint */;
+			targetProxy = 9D8C5D25C818D24B3B4F9D2DD40CA1F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02E3EA71230B1B43B6E9C924CDCBA6C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C055FDCA903A7BB9580292C24E49A9CB /* ZYLint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYLint";
+				INFOPLIST_FILE = "Target Support Files/ZYLint/ResourceBundle-ZYLint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYLint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0475B7DFB847649FFB0F048F6CB32CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C055FDCA903A7BB9580292C24E49A9CB /* ZYLint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYLint/ZYLint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYLint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYLint/ZYLint.modulemap";
+				PRODUCT_MODULE_NAME = ZYLint;
+				PRODUCT_NAME = ZYLint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14F0DD69353927336BE2D7A968CBB0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C055FDCA903A7BB9580292C24E49A9CB /* ZYLint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZYLint/ZYLint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZYLint/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZYLint/ZYLint.modulemap";
+				PRODUCT_MODULE_NAME = ZYLint;
+				PRODUCT_NAME = ZYLint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37CA896885599A1737D0135482DE9E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BB9D3CF79BC49780633E59ACF52A1F0 /* Pods-ZYLint_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYLint_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYLint_Tests/Pods-ZYLint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CAD406E41F8A92B2A8B619C17147B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C055FDCA903A7BB9580292C24E49A9CB /* ZYLint.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZYLint";
+				INFOPLIST_FILE = "Target Support Files/ZYLint/ResourceBundle-ZYLint-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZYLint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5146942162156244FCAADAEBCD214F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCE7F982260D98F9262FB464CE96C95 /* Pods-ZYLint_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYLint_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYLint_Example/Pods-ZYLint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B5870818EE96A9BB7614FFE3040A84B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C800A155499216C045AD72C5D21437 /* Pods-ZYLint_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYLint_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYLint_Example/Pods-ZYLint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C8C29A2A864830AF29282568CB0D03D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608ED0ABB3EEF0BBB6FFA271C973CEDD /* Pods-ZYLint_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZYLint_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZYLint_Tests/Pods-ZYLint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21697E6D14B970BEB61B5D72113F5073 /* Build configuration list for PBXNativeTarget "ZYLint-ZYLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAD406E41F8A92B2A8B619C17147B03 /* Debug */,
+				02E3EA71230B1B43B6E9C924CDCBA6C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8790AD0AD5CC3104136ADC12C067B8F6 /* Build configuration list for PBXNativeTarget "Pods-ZYLint_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CA896885599A1737D0135482DE9E4B /* Debug */,
+				C8C29A2A864830AF29282568CB0D03D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6763DB25FD5A09D2AAF652F27929FC7 /* Build configuration list for PBXNativeTarget "ZYLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14F0DD69353927336BE2D7A968CBB0CA /* Debug */,
+				0475B7DFB847649FFB0F048F6CB32CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A992B0EEEA7A39BF1E18382D86C88C76 /* Build configuration list for PBXNativeTarget "Pods-ZYLint_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5870818EE96A9BB7614FFE3040A84B5 /* Debug */,
+				5146942162156244FCAADAEBCD214F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

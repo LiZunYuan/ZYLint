@@ -1,0 +1,16 @@
+PODS:
+  - ZYLint (0.1.0)
+
+DEPENDENCIES:
+  - ZYLint (from `../`)
+
+EXTERNAL SOURCES:
+  ZYLint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYLint: a4c35c3a8168aee277842129bdcebc2dd2fc1052
+
+PODFILE CHECKSUM: 273d63657afbf6cf4cf8acecd27c525368fd105f
+
+COCOAPODS: 1.5.0
